@@ -12,7 +12,15 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.3",
+    "vite": "^4.4.5"
+  },
   "scripts": {
+    "dev": "nodemon index.js",
+    "dev-vite": "vite",
+    "build-vite": "vite build",
+    "preview-vite": "vite preview",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
