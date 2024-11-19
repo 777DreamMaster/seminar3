@@ -21,7 +21,7 @@ const TimerEffect = ({ onUnmount = (sec) => {} }) => {
             clearInterval(timer);
             onUnmount(secondsRef.current); // Передаём текущее время родителю
         };
-    }, [onUnmount]);
+    }, []);
 
     return <div>Секунд прошло: {seconds}</div>;
 };
