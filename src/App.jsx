@@ -5,18 +5,22 @@ import EffectNoDepArray from "./useEffects/EffectNoDepArray";
 import MultipleEffects from "./useEffects/MultipleEffects";
 import AsyncRequestEffect from "./useEffects/AsyncRequestEffect";
 import TimerEffect from "./useEffects/TimerEffect";
+import ToggleableMenu from "./useEffects/ToggleableMenu";
+import Timer from "./useEffects/Timer";
 
 function App() {
 
   return (
     <div className="App">
 
-        <EffectNoDependencies />
+        {/*<EffectNoDependencies />*/}
         {/*<EffectWithDependencies />*/}
+        {/*<ToggleableMenu />*/}
         {/*<EffectNoDepArray />*/}
         {/*<MultipleEffects />*/}
         {/*<AsyncRequestEffect />*/}
         {/*<TimerEffect />*/}
+        <Timer />
     </div>
   );
 }
